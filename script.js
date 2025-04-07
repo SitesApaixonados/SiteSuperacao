@@ -10,7 +10,7 @@ function tempoPassado(data) {
     return `${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`;
 }
 
-const data = new Date(2025, 0, 23, 20, 1, 39);
+const data = new Date(2025, 0, 31, 20, 45, 0);
 console.log(tempoPassado(data));
 
 function atualizarTempo() {
